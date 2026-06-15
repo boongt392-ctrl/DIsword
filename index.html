@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Chat App</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loginBox">
+      <h1>Login</h1>
+
+      <input type="text" id="username" placeholder="Nama" />
+
+      <button onclick="login()">Masuk</button>
+    </div>
+
+    <div id="chatBox" style="display: none">
+      <div class="sidebar">
+        <h2>Menu</h2>
+
+        <hr />
+
+        <h3>User Online</h3>
+
+        <div id="users"></div>
+
+        <hr />
+
+        <h3>Grup</h3>
+
+        <input type="text" id="groupName" placeholder="Nama Grup" />
+
+        <button onclick="createGroup()">Buat</button>
+
+        <div id="groups"></div>
+      </div>
+
+      <div class="main">
+       <div class="header">
+  <h2 id="welcome">Halo</h2>
+
+  <button onclick="startVoiceCall()">
+    Voice Call
+  </button>
+<button onclick="startVoiceCall()">
+    Voice Call
+</button>
+
+<button onclick="startVideoCall()">
+    Video Call
+    document.getElementById("endCallBtn")
+    .style.display = "inline-block";
+</button>
+
+<button id="endCallBtn"
+        onclick="endCall()"
+        style="display:none;">
+    Matikan Call
+</button>
+
+  <button onclick="startVideoCall()">
+    Video Call
+    document.getElementById("endCallBtn")
+    .style.display = "inline-block";
+  </button>
+
+  <audio id="remoteAudio" autoplay></audio>
+
+  <video
+    id="localVideo"
+    autoplay
+    muted
+    playsinline
+    style="display:none">
+  </video>
+
+  <video
+    id="remoteVideo"
+    autoplay
+    playsinline
+    style="display:none">
+  </video>
+</div>
+
+        <div id="messages"></div>
+
+        <input type="text" id="messageInput" placeholder="Ketik pesan..." />
+
+        <button onclick="sendMessage()">Kirim</button>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

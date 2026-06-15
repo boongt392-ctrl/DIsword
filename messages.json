@@ -1,0 +1,112 @@
+[
+  {
+    "from": "Andi",
+    "to": "Ghazy",
+    "text": "halo",
+    "time": "14/6/2026, 21.16.25"
+  },
+  {
+    "from": "Ghazy",
+    "to": "Andi",
+    "text": "lagi apa",
+    "time": "14/6/2026, 21.16.47"
+  },
+  {
+    "type": "private",
+    "from": "Budi",
+    "to": "Ghazy",
+    "text": "halo",
+    "time": "14/6/2026, 21.57.51"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Ghazy",
+    "text": "halo",
+    "time": "14/6/2026, 22.01.54"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Andi",
+    "text": "halo",
+    "time": "14/6/2026, 22.02.40"
+  },
+  {
+    "type": "private",
+    "from": "Ghazy",
+    "to": "Andi",
+    "text": "haalo",
+    "time": "15/6/2026, 06.57.02"
+  },
+  {
+    "type": "private",
+    "from": "Budi",
+    "to": "Andi",
+    "text": "halo",
+    "time": "15/6/2026, 07.25.38"
+  },
+  {
+    "type": "private",
+    "from": "Andi",
+    "to": "Budi",
+    "text": "apa",
+    "time": "15/6/2026, 07.25.51"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Ghazy",
+    "text": "Raw",
+    "time": "15/6/2026, 07.33.12"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Ghazy",
+    "text": "p",
+    "time": "15/6/2026, 07.33.27"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Ghazy",
+    "text": "oyyy",
+    "time": "15/6/2026, 08.30.03"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Ghazy",
+    "text": "oyyy",
+    "time": "15/6/2026, 08.30.20"
+  },
+  {
+    "type": "private",
+    "from": "Andi",
+    "to": "Ghazy",
+    "text": "bro",
+    "time": "15/6/2026, 08.30.35"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Ghazy",
+    "text": "ya",
+    "time": "15/6/2026, 08.31.01"
+  },
+  {
+    "type": "group",
+    "group": "GANTENG",
+    "from": "Andi",
+    "text": "halo",
+    "time": "15/6/2026, 08.32.13"
+  },
+  {
+    "type": "private",
+    "from": "Ghazy",
+    "to": "Andi",
+    "text": "p",
+    "time": "15/6/2026, 08.51.10"
+  }
+]
